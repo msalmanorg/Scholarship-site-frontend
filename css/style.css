@@ -315,13 +315,13 @@ footer {
     opacity: 0;
     pointer-events: none;
     z-index: -1;
-
 }
 
 .slide-to-top-btn.toggle-slide-btn {
     z-index: 30;
     opacity: 1;
     pointer-events: auto;
+    cursor: pointer;
     transform: translateY(0px);
 }
 

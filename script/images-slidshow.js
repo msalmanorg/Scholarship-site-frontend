@@ -1,3 +1,5 @@
+const IMG_SLIDE_TIME = 8000;
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -21,6 +23,6 @@ function showSlides(n) {
 
 }
 
-// setInterval(() => {
-//     document.querySelector(".next-slidshow-btn").click();
-// }, 1000);
+setInterval(() => {
+    document.querySelector(".next-slidshow-btn").click();
+}, IMG_SLIDE_TIME);
