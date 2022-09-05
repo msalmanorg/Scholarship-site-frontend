@@ -41,11 +41,10 @@
 
 .line-ancher:hover span::before {
     transform-origin: left;
-    transform: scaleX(1);
+    transform: scaleX(0.999);
 }
 
 /* Start Styling the Header Component */
-
 
 .container {
     width: 1200px;
@@ -541,6 +540,7 @@ footer {
     .footer-links ul li {
         justify-content: start;
     }
+
     .slide-to-top-btn {
         width: 30px;
         bottom: 30px;
